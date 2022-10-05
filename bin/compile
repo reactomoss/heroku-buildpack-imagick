@@ -118,7 +118,7 @@ if [ ! -f $IMAGICK_CACHE_FILE ]; then
   IMAGICK_DIR="imagick-$IMAGICK_VERSION"
   # SSL cert used on imagemagick not recognized by heroku.
   # pecl.php.net/get/imagick/3.4.1
-  IMAGICK_URL="pecl.php.net/get/imagick/$IMAGICK_VERSION"
+  IMAGICK_URL="pecl.php.net/get/imagick/$IMAGICK_FILE"
 
   echo "-----> Downloading Imagick from $IMAGICK_URL"
   wget $IMAGICK_URL -O $BUILD_DIR/$IMAGICK_FILE | indent
