@@ -114,7 +114,7 @@ echo "-----> Install Imagick"
 
 if [ ! -f $IMAGICK_CACHE_FILE ]; then
   # install imagick
-  IMAGICK_FILE="Imagick-$IMAGICK_VERSION.tgz"
+  IMAGICK_FILE="imagick-$IMAGICK_VERSION.tgz"
   IMAGICK_DIR="imagick-$IMAGICK_VERSION"
   # SSL cert used on imagemagick not recognized by heroku.
   # pecl.php.net/get/imagick/3.4.1
